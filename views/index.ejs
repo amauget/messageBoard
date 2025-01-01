@@ -8,13 +8,7 @@
 </head>
 <body>
     <h1>What's New?</h1>
-
-    <!-- list current posts from "users" containerized.
-        
-        name: 
-        date: 
-        message: 
-    -->
+<a href="/form">Click Here to Add a Comment</a>
     <ul class="messages">
         <% content.forEach((item) => { %>
             <%- include('message', {name: item.name, date: item.date, message: item.message}) %>
