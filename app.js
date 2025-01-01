@@ -41,7 +41,6 @@ app.post('/', (req, res) => {
             res.status(500)
         }
         else{
-            // console.log(JSON.stringify(content))
             console.log('Writing successful.')
             res.status(200)
         }

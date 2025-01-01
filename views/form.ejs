@@ -1,11 +1,23 @@
-<h1 class="title">What do you want to say?</h1>
-<a href="/">Home</a>
-<form method="POST" action="/">
-    <label for="name">Name: </label>
-    <input type="text" class="name" name="name" placeholder="John Doe" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"> <!-- located in public dir -->
+    <title>Post a Comment</title>
+</head>
+<body>
+    <h1 class="title">What do you want to say?</h1>
+    <a href="/">Home</a>
+    <form method="POST" action="/">
+        <label class="name" for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required>
+        
+        <label class="message" for="message">Message: </label>
+        <textarea name="message" id="message" placeholder="Type your message here!" required></textarea>
     
-    <label for="message">Message: </label>
-    <textarea name="message" class="message" placeholder="Type your message here!" required></textarea>
+        <button class="submit">Submit</button>
+     </form>   
+</body>
+</html>
 
-    <button class="submit">Submit</button>
- </form>
