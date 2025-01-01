@@ -63,7 +63,7 @@ app.use((err, req, res, next) => { //Error Handling
 
 //Server Config: 
 
-const PORT = 3000
+const PORT = 8000
 
 app.listen(PORT, () => {
     console.log('Running on port: ', PORT)
