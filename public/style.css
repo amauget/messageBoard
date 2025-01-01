@@ -48,7 +48,8 @@ body{
         input, textarea{
             font-size: 1.5rem;
             width: 20vw;
-
+            border-radius: 15px;
+            padding: 10px;
         }
         .name{ 
             grid-row: 1/2;
