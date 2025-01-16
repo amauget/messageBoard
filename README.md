@@ -7,3 +7,5 @@ This project implements fundamental concepts for express, such as routing and er
 Styling is intentionally spartan, as this is much closer to homework than portfolio work.
 
 The try/catch used in controllers/prepData.js is only used for demo purposes. I acknowledge that isn't nearly robust enough for a real world application.
+
+Live Preview: https://primitive-susie-amauget-fd75e06a.koyeb.app/
